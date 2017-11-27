@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  color: red;
+}
+
+.game-board-div {
+  width: 650px;
+  height: 650px;
+  background-color: gray;
+}
+
+.top div, .bottom div {
+  float: left;
+}
+
+.corner-tile {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.property-tile {
+  width: 50px;
+  height: 100px;
+  background-color: red;
+}
+
+.left .property-tile {
+  width: 100px;
+  height: 50px;
+}
+.right .property-tile {
+  width: 100px;
+  height: 50px;
+}
+.bottom {
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.one {
+  background-color: #111111;
+}
+
+.two {
+  background-color: #222222;
+}
+
+.three {
+  background-color: #333333;
+}
+
+.four {
+  background-color: #444444;
+}
+
+.five {
+  background-color: #555555;
+}
+
+.six {
+  background-color: #666666;
+}
+
+.seven {
+  background-color: #777777;
+}
+
+.eight {
+  background-color: #888888;
+}
+
+.nine {
+  background-color: #999999;
+}
